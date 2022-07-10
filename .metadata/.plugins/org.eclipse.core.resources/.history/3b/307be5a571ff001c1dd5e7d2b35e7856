@@ -1,0 +1,13 @@
+io流输入输出流
+FileOutputStream
+	write(int w)这个方法把指定的字节写到输出流中。
+	close()关闭此文件输入流并释放与此流有关的所有系统资源。抛出IOException异常。
+	字节流写完数据如何换行
+		windows；\r\n
+		linux;\n
+		mac\r
+	字节流写数据追加数据
+	FileOutputStream（String name,boolean append)
+	第一个参数是文件名称，第二个是参数为True,则字节写入文件的末尾而不是开头
+	finally;在异常处理时提供finally块来执行所有清楚操作
+	

@@ -1,0 +1,11 @@
+package Demo03;
+
+public class Cat implements jumpping{
+
+	@Override
+	public void jump() {
+		// TODO Auto-generated method stub
+		System.out.println("猫可以调高");
+	}
+
+}

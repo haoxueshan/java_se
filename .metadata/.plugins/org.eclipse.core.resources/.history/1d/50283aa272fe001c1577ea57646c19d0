@@ -1,0 +1,6 @@
+Linkelist���ײ����ݽṹ����������ѯ����ɾ��
+Arraylist���ײ����ݽṹ�����飬��ѯ����ɾ��
+set<��������>�������ظ�Ԫ��
+Treeset()��������Ԫ�ص���Ȼ˳������
+TreeSet(Comparator comparator);����ָ���ıȽ�����������
+   ��Ԫ����������ʵ��Comparable�ӿڣ���дcompareTo��to������

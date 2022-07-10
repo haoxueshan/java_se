@@ -1,0 +1,13 @@
+泛型类
+    格式；public class <类名>{}
+泛型方法
+	格式；修饰符<类型>返回值类型方法名(类型 变量名){}
+泛型接口
+	格式; 修饰符interface 接口名 <类型>{}
+类型通配符
+	List<?>；表示元素类型未知的List,它的元素可以匹配任何的类型
+	类型的上限通配符<?extends 类型>
+	List<? extends Number>;它表示的类型是Number或者其子类型
+	
+	类型下线通配符<?super 类型>
+	List<? super Number>;它表示的类型是Number或者其子类型

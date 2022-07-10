@@ -1,0 +1,28 @@
+package Demo091;
+
+public class SellTicet implements Runnable {
+
+	private int tickets = 1000000;
+	private Object obj=new Object();
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		try {
+			Thread.sleep(10);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		synchronized (obj) {
+			while (true) {
+				if (tickets > 0) {
+					
+					System.out.println(Thread.currentThread().getName() + "正在出售" + tickets + "张");
+					tickets--;
+				}
+			}
+		}
+	}
+
+}

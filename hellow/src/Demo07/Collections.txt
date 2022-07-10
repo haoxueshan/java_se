@@ -1,0 +1,2 @@
+collections.sort(list);对列表自然排序
+collections.reverse(list)；对列表反转

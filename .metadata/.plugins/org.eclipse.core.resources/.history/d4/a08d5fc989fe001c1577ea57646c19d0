@@ -1,0 +1,17 @@
+package Demo07;
+
+public class Teacher {
+
+	private Integer age;
+
+	public Teacher() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Teacher(Integer age) {
+		super();
+		this.age = age;
+	}
+	
+}

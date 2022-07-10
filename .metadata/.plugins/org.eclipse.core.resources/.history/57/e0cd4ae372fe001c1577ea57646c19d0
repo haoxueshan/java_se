@@ -1,0 +1,7 @@
+Linkelist；底层数据结构是链表，查询慢增删快
+Arraylist；底层数据结构是数组，查询快增删慢
+set<数据类型>不包含重复元素
+Treeset()；根据其元素的自然顺序排序
+TreeSet(Comparator comparator);根据指定的比较器进行排序
+   让元素所属的类实现Comparable接口，重写compareTo（to）方法
+    Comparator;带参构造方法使用的是比较器进行排序

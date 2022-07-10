@@ -1,0 +1,10 @@
+package Demo09;
+
+public class MyRunnableDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

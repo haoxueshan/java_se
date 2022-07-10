@@ -1,0 +1,15 @@
+package hellow;
+
+public class list01 {
+
+	public static void main(String[] args) {
+		Demo073 p= new Demo073();
+		p.setName("°¢Ë¹¶Ù");
+		p.setAge(35);
+		p.show();
+		
+		Demo074 s=new Demo074();
+		s.show();
+	}
+}
+ 

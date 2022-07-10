@@ -1,0 +1,3 @@
+System.in 标准输入
+System.out 标准输出
+printStream

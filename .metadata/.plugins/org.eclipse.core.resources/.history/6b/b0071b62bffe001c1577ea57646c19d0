@@ -1,0 +1,10 @@
+package Demo08;
+
+public class DiGuiDemo {
+
+	public static void main(String[] args) {
+		
+		int[] arr=new int[20];
+		
+	}
+}

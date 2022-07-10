@@ -1,0 +1,13 @@
+package Demo07;
+
+import java.util.Map;
+
+public class MapDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Map<String,String> map=new Map<String, String>;
+	}
+
+}

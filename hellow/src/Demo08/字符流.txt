@@ -1,0 +1,19 @@
+字符流=字节流+编码表
+汉字编码第一个参数为复数
+字符流写
+	OutoutStreamWrit
+	方法；
+		write()
+	FileWrite:继承OutoutStreamWrit
+	方法；
+		write()
+字符流读
+	InputStreamWrit
+	方法
+		read()
+	FileReader；继承InputStreamWrit
+	方法
+		read()
+字符缓冲流
+	BufferedWriter;将文本写入字符输出流，缓冲字符，以提供单个字符，数组和字符串的高效写入。 
+	BufferedReader

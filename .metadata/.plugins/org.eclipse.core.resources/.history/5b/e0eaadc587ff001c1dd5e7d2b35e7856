@@ -1,0 +1,16 @@
+package Demo08;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+
+public class objectOutputstreamDemo {
+
+	public static void main(String[] args) throws IOException, IOException {
+		ObjectOutputStream oos=new ObjectOutputStream(new FileOutputStream("./src/Demo08/oos.txt"));
+		Student s=new Student("’≈…Ω", 10);
+		oos.writeObject(s);
+		oos.close();
+	}
+}

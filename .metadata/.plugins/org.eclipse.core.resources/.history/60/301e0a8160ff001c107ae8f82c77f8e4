@@ -1,0 +1,14 @@
+package Demo08;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+public class FileoutputstreamDemo01 {
+
+	public static void main(String[] args) throws IOException {
+		FileOutputStream fo=new FileOutputStream("./src/Demo08/fo.txt");
+		fo.write(999);
+		fo.close();
+	}
+}

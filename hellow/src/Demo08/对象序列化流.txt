@@ -1,0 +1,10 @@
+对象序列化；就是将对象保存到磁盘中，或者在网路中传输对象
+	objectoutputStream
+对象反序列化流；
+	ObjectInputStream
+	
+transient;被修饰的成员变量不参与序列化，反序列化会返回成员变量的默认值
+
+如果反序列化类被修改读取出问题解决方法
+	给对象所属的类加一个serialVersionUID
+	private static final long serialVersionUID=421;

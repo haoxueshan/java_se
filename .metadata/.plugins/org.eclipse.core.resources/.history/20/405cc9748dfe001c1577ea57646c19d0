@@ -1,0 +1,5 @@
+package Demo07;
+
+public class Denericimpl implements Deneric<T> {
+
+}

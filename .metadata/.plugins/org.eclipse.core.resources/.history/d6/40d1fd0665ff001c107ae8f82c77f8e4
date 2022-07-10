@@ -1,0 +1,10 @@
+package Demo08;
+
+public class CopyDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

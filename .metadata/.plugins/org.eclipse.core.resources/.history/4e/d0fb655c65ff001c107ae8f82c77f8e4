@@ -1,0 +1,17 @@
+package Demo08;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+public class CopyDemo {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+
+		FileInputStream fis=new FileInputStream("./src/Demo08/×Ö½ÚÁ÷.txt");
+		FileOutputStream fos=new FileOutputStream("./src/Demo08/fo.txt");
+	}
+
+}

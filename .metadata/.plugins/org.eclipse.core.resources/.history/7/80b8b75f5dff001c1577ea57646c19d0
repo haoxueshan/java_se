@@ -1,0 +1,13 @@
+package Demo08;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+
+public class FileoutputstreamDemo01 {
+
+	public static void main(String[] args) throws FileNotFoundException, InterruptedException {
+		FileOutputStream fo=new FileOutputStream("./src/Demo08/fo.txt");
+		fo.wait(30);
+		System.out.println(fo);
+	}
+}

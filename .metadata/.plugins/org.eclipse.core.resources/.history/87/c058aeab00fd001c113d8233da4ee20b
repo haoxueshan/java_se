@@ -1,0 +1,12 @@
+package Demo01;
+
+public class PersionDemo {
+
+	public static void main(String[] args) {
+		Teacher t1=new Teacher();
+		t1.setName("ˆÈı");
+		t1.setAge("36");
+		System.out.println(t1.getName()+t1.getAge());
+		t1.Tcher();
+	}
+}

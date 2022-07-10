@@ -1,0 +1,4 @@
+io流输入输出流
+FileOutputStream
+	write(int w)这个方法把指定的字节写到输出流中。
+	close()关闭此文件输入流并释放与此流有关的所有系统资源。抛出IOException异常。

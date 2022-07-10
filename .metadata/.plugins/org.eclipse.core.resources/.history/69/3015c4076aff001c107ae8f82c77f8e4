@@ -1,0 +1,19 @@
+package Demo08;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+public class CopyVoidDemo {
+
+	public static void main(String[] args) {
+		
+	}
+	public static void methodl() throws IOException {
+		// TODO Auto-generated method stub
+		FileInputStream fi=new FileInputStream("./src/Demo08/v1mp4");
+		FileOutputStream fo=new FileOutputStream("./src/Demo08/v2.mp4");
+		
+	}
+}

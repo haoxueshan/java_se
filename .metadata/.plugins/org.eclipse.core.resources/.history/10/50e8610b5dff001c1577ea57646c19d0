@@ -1,0 +1,12 @@
+package Demo08;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+
+public class FileoutputstreamDemo01 {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		FileOutputStream fo=new FileOutputStream("./src/Demo08/java.txt");
+		
+	}
+}
