@@ -1,5 +1,0 @@
-package Demo031;
-
-public class PingpongPlayer extends Player implements SpeakEnglish{
-
-}

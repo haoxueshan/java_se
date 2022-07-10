@@ -1,9 +1,0 @@
-api:应用程序编程接口 
-Java Api:指的就是Jdk中提供的各种功能类
-
-String中的方法
-  equals()比较字符串中的内容
-  charAt()返回指定索引处的char值
-  length()返回字符串的长度
-  StringBuilder:
-     是一个可变的字符串类，可以把它看成一个容器

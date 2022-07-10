@@ -1,8 +1,0 @@
-package Demo01;
-
-public class Teacher extends Persion {
- 
-	public void Tcher() {
-		System.out.println("Û¸Ğ»¯ŒWÉú");
-	}
-}
