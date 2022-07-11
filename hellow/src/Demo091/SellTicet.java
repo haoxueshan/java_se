@@ -13,17 +13,21 @@ public class SellTicet implements Runnable {
 	@Override
 	public void run() {
 		// TODO Auto-generated method stub
-			
-			while (true) {
-				try {
-					if (tickets > 0) {
-						System.out.println(Thread.currentThread().getName() + "正在出售" + tickets + "张");
-						tickets--;
-					} 
-					}finally {
-						
-					}
 
+		while (true) {
+			try {
+				lock.lock();
+				if (tickets > 0) {
+					System.out.println(Thread.currentThread().getName() + "正在出售" + tickets + "张");
+					tickets--;
+				}else {
+					break;
+				}
+			} finally {
+				lock.unlock();
+			}
+
+		}
 	}
 
 	public synchronized void sellTicket() {

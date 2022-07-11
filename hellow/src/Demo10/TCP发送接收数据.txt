@@ -1,0 +1,16 @@
+发送
+	1.创建客户端的Socket对象(Socket)
+		Socket(String host,int poth)
+	2.获取输入流，写数据
+		OutputStream getOutputStream()
+	3.释放资源
+		void close()
+接收
+	1创建服务器端的Socket对象(ServerSocket)
+		ServerSocket(int port)
+	2.监听客户端连接，返回一个Socket对象
+		Socket accept()
+	3.获取输入流，读取数据，并把数据显示在控制台
+		InputSteam getInputStream()
+	4.释放资源
+		close()

@@ -44,4 +44,10 @@
 		类名.class
 		
 线程锁
+	luck的子类ReentrantLock()
 	
+生产者消费者模式概述
+	wait()导致当前线程等待，直到另一个线程调用该对象的notify()或者notifyAll()方法
+	notify()唤醒正在等待对象的监视器的单个线程
+	notifyAll()唤醒正在等待对象监视器的所有线程
+
