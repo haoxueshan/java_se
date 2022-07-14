@@ -1,0 +1,17 @@
+函数式接口有且仅有一个抽象方法的接口
+
+如何检测一个接口是不是函数接口
+	@FuncthonalInterface
+	放在接口定义的上方；如果接口是函数式接口，编译通过；如果不是，编译失败
+	
+注；
+	FuncthonalInterface是可选的，就算不写这个注解，只要满足函数式接口的定义条件，照样是函数接口
+	
+如果方法的返回值是一个函数式接口，可以使用Lambda表达式结果返回
+
+常用的函数式接口
+	在java.util.function包下预定义了大量的函数式接口供我们使用
+		Supplier接口
+		Consumer接口
+		Predicate接口
+		Function接口

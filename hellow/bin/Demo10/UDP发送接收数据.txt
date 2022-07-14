@@ -1,0 +1,21 @@
+发送
+	1.创建发送端的Socket对象(DatagramSocket)
+		DatagramSocket()
+	2.创建数据，并把数据打包
+		DatagramSocket(byte[],int lenght,InetAddress address,int port)
+	3.调用DatagramSocket对象的方法发送数据
+		void send(DatagramPacket p)
+	4.关闭发送端
+		void close()
+接收
+	1.创建接收端的Socket对象(DatagramSocket)
+		DatagramSocket(int port)
+	2.创建一个数据包，用于接收数据
+		DatagramPacket(byte[] buf,int lenght)
+	3.调用DatagramSocket对象的方法接收数据
+		void receive(DatagramPacket p)
+	4.解析数据包，并把数据包在控制台显示
+		byte[] getData()
+		int getLength()
+	5关闭接收端
+		void close()
